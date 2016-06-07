@@ -1,5 +1,7 @@
 #Lister
 
+[![Build Status](https://travis-ci.org/roppa/lister.svg?branch=master)](https://travis-ci.org/roppa/lister)
+
 ##Convert a POJO or JSON object into an html or markdown list
 
 This started as a template helper - taking a nested JSON object and presenting it as an unordered list.
@@ -8,4 +10,3 @@ This started as a template helper - taking a nested JSON object and presenting i
       let arr = [1, 2, 3];
       expect(l(arr, { ulClass: 'my-ul-class' })).to.eql('<ul class="my-ul-class"><li>1</li><li>2</li><li>3</li></ul>');
     });
-

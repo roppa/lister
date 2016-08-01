@@ -79,6 +79,10 @@ let lister = (obj, options) => {
     let result = '';
     depth++;
 
+    if (obj === null) {
+      return '';
+    }
+
     if (Array.isArray(obj)) {
 
       result += settings.ul.start(depth);

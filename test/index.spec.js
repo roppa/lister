@@ -17,6 +17,11 @@ describe('Lister', () => {
       expect(l(value)).to.eql('1');
     });
 
+    it('should catch null', () => {
+      let value = null;
+      expect(l(value)).to.eql('');
+    });
+
   });
 
   describe('unordered list', () => {

@@ -1,13 +1,26 @@
 {
   "name": "lister",
   "version": "1.0.0",
-  "description": "Convert JSON objects to a nested list of key values",
+  "description": "Convert JSON objects to a nested HTML list (ol or ul) or markdown list",
+  "author": "Mark Robson <mark.o.robson@gmail.com> (http://digioli.co.uk)",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "Mark Robson <mark.o.robson@gmail.com> (http://digioli.co.uk)",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roppa/lister"
+  },
+  "bugs": {
+    "url": "https://github.com/roppa/lister/issues"
+  },
+  "keywords": [
+    "html list",
+    "ul",
+    "li",
+    "markdown list"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.3"

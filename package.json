@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/roppa/lister"
+    "url": "https://github.com/roppa/mr-lister"
   },
   "bugs": {
-    "url": "https://github.com/roppa/lister/issues"
+    "url": "https://github.com/roppa/mr-lister/issues"
   },
   "keywords": [
     "html list",

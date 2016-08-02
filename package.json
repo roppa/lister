@@ -1,6 +1,6 @@
 {
   "name": "mr-lister",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert JSON objects to a nested HTML list (ol or ul) or markdown list",
   "author": "Mark Robson <mark.o.robson@gmail.com> (http://digioli.co.uk)",
   "main": "index.js",
